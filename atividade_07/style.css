@@ -1,0 +1,47 @@
+body {
+  background-image: url(assets/background_image.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  background: rgb(245, 198, 42);
+  padding: 0px;
+}
+
+header>h1 {
+  color: #24272E;
+  text-align: center;
+  font-family: 'Asap', sans-serif;
+  text-transform: uppercase;
+  font-size: 4em;
+}
+
+.button {
+  border: 2px solid rgb(245, 245, 245);
+  color: rgb(27, 27, 27);
+  background-color: rgb(245, 198, 42);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+.footer-bottom {
+  position: absolute;
+  width: 100%;
+  margin-bottom: 0;
+  bottom: 0px;
+  padding: 10px;
+  display: flex;
+  background-color: rgb(245, 198, 42);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
