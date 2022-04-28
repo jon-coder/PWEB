@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <script src="file.js"></script>
+
+    <title>Atividade 8</title>
+</head>
+<body>
+    <header>
+        <h1>Atividade 8</h1>
+    </header>
+
+    <main class = main>
+        <h2>Pesquisa de lançamento- Sua participação é muito importante</h2>        
+        <p>Idade <input id="idade" type="number"></p>
+        <p>Sexo <input type="radio" id="feminino">Feminino<input type="radio" name="sexo" id="masculino">Masculino</p>
+        <p>
+            Selecione a sua opinião sobre o filme:<br><br>
+            <input type="radio" id="otimo">Ótimo
+            <input type="radio" id="bom">Bom
+            <input type="radio" id="regular">Regular
+            <input type="radio" id="pessimo">Péssimo<br><br>
+            <button onclick="addData()" id="confirmar">Adicionar</button>
+            <button onclick="finish()">Exibir resultados</button>          
+        </p>
+        <p id="contador">Pessoas entrevistadas 0/45</p>
+    </main>
+    <section>
+        <div class="result">
+            <h2 id="h2"></h2>
+            <p id="p"></p>
+        </div>
+    </section>
+</body>
+</html>
