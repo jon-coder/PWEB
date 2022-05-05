@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Atividade 10</title>
+</head>
+<body>
+    <script>
+    /*
+        Atividade 10
+        -> Criar o Objeto: Aluno1(propriedades: RA, Nome).
+        -> Atribua valores para as propriedades.
+        -> Utilizar 3 formas diferentes
+    */
+            
+        var aluno1 = new Object();
+        aluno1.nome = "João Paulo Camargo";
+        aluno1.ra = "003048........";
+        
+        function Aluno(nome, ra) {
+            this.nome = nome,
+            this.ra = ra;
+        };
+        var aluno2 = new Aluno("João Paulo Camargo", "003048........");
+        
+        var aluno3 = {
+            nome: "João Paulo Camargo",
+            ra: "003048........",
+        };
+
+        alert("Nome: " + aluno1.nome + "\n" + "RA: " + aluno1.ra)
+        alert("Nome: " + aluno2.nome + "\n" + "RA: " + aluno2.ra)
+        alert("Nome: " + aluno3.nome + "\n" + "RA: " + aluno3.ra)
+    </script>
+</body>
+</html>
