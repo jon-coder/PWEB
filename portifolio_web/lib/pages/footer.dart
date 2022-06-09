@@ -1,7 +1,9 @@
 import 'package:flutter/widgets.dart';
-import 'package:portifolio_web/app_colors.dart';
-import 'package:portifolio_web/pages/header.dart';
 import 'package:velocity_x/velocity_x.dart';
+
+import '../app_colors.dart';
+
+import 'pages.dart';
 
 class FooterPage extends StatelessWidget {
   const FooterPage({Key? key}) : super(key: key);

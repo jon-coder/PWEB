@@ -22,13 +22,13 @@ class MiddlePage extends StatelessWidget {
           16.heightBox,
           Expanded(
             child: VxSwiper(
-              // ignore: prefer_const_constructors
               items: const [
                 TechWidget(name: "Flutter"),
                 TechWidget(name: "Dart"),
                 TechWidget(name: "Firebase"),
                 TechWidget(name: "Android"),
                 TechWidget(name: "Kotlin"),
+                TechWidget(name: "iOS"),
                 TechWidget(name: "Node"),
                 TechWidget(name: "Javascript"),
               ],

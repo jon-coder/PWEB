@@ -1,12 +1,12 @@
 import 'dart:math';
-import 'package:flutter/material.dart';
 
+import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:unicons/unicons.dart';
-
-import 'package:portifolio_web/app_colors.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:velocity_x/velocity_x.dart';
+
+import '../app_colors.dart';
 
 class HeaderPage extends StatelessWidget {
   const HeaderPage({Key? key}) : super(key: key);
@@ -118,7 +118,7 @@ class SocialAccounts extends StatelessWidget {
         color: Colors.white,
         size: 42,
       ).click(() async {
-        await launch('https://www.google.com/');
+        await launch('https://github.com/jon-coder');
       }).make(),
       20.widthBox,
       const Icon(
@@ -126,7 +126,7 @@ class SocialAccounts extends StatelessWidget {
         color: Colors.white,
         size: 42,
       ).click(() {
-        launch('https://www.google.com/');
+        launch('https://www.linkedin.com/in/jon-001001/');
       }).make()
     ].hStack();
   }

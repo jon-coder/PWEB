@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:portifolio_web/app_colors.dart';
 
+import 'app_colors.dart';
 import 'pages/pages.dart';
 
 void main() {
@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Portifolio',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.orange).copyWith(secondary: AppColors.accentColor),
         visualDensity: VisualDensity.adaptivePlatformDensity,
