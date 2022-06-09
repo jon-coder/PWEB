@@ -16,6 +16,8 @@ class HomePage extends StatelessWidget {
         const HeaderPage(),
         if (context.isMobile) const IntroductionWidget().p16(),
         const MiddlePage(),
+        const HeightBox(32),
+        const FooterPage()
       ]).scrollVertical(),
     );
   }

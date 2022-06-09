@@ -85,6 +85,7 @@ class CustomAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Icon(
           UniconsLine.android,
@@ -141,11 +142,11 @@ class IntroductionWidget extends StatelessWidget {
       child: VStack([
         " - Introdução".text.gray600.widest.xl.make(),
         8.heightBox,
-        "Mobile Engineer\ncom experiência em\nFlutter, Dart, Firebase, Android e iOS."
+        "Mobile Engineer\ncom experiência no desenvolvimento\nde soluções cross-platform."
             .text
             .white
             .xl2
-            .maxLines(8)
+            .maxLines(4)
             .make()
             .w(context.isMobile ? context.screenWidth : context.percentWidth * 40),
         24.heightBox,
