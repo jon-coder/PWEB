@@ -15,6 +15,7 @@ class HomePage extends StatelessWidget {
       child: VStack([
         const HeaderPage(),
         if (context.isMobile) const IntroductionWidget().p16(),
+        const MiddlePage(),
       ]).scrollVertical(),
     );
   }
